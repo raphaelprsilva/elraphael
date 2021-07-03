@@ -1,29 +1,93 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Raphael | Portifolio</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ElRaphaEl</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
 
-    <body>
-        <div>    
-            <h1>Raphael Pereira Silva</h1><br>
-            <h2>Sobre mim</h2>
-            <img src="images/raphael.jpg" alt="Imagem do Raphael" width="300px">
-            <p>Meu nome é Raphael, sou natural de <em><strong>Uberlândia, Minas Gerais, Brasil</strong></em>. Sou formado em engenharia mecânica, pela 
-                UFU (Universidade Federal de Uberlândia). Trabalhei como engenheiro de manutenção em algumas empresas do ramo de mineração 
-                e sucroenergético. Hoje, busco uma transição de carreira para a área de TI. Tenho descoberto um novo mundo, cheio de possibilidades 
-                e caminhos a percorrer.<br><br>Nas Horas vagas, gosto de praticar esportes, ler, pintar e agora, codar. 
-            </p>
+<body>
+  <header class="cabecalhoPrincipal">
+    <div class="container">
+      <h1 class="cabecalhoPrincipalTitulo">Rapha&ltel&gt</h1>
+
+      <nav class="cabecalhoPrincipal-nav">
+          <a class="cabecalhoPrincipal-nav-link" href="#quemEuSou">Quem eu sou?</a>
+          <a class="cabecalhoPrincipal-nav-link" href="#meusProjetos">Meus projetos</a>
+          <a class="cabecalhoPrincipal-nav-link" href="#">O que eu faço?</a>
+          <a class="cabecalhoPrincipal-nav-link" href="#">Contato</a>
+      </nav>
+    </div>
+
+  </header>
+
+  <main class="conteudoPrincipal">
+    <div class="hero-image">
+      <div class="hero-text">
+        <h2>Olá, eu sou</h2>
+        <h1>Raphael Silva</h1>
+        <p>
+          Bem-vindo e bem-vinda ao meu site pessoal.
+          Aqui você poderá ver um pouco sobre mim e sobre o meu trabalho.
+        </p>
+        <button>Hire me</button>
+      </div>
+    </div>
+
+    <section class="quemEuSou" id="quemEuSou">
+      <h2 class="quemEuSou-titulo">Quem eu Sou?</h2>
+      <p class="quemEuSou-paragrafo">
+        Meu nome é Raphael Pereira Silva, tenho 28 anos, natural de Uberlândia/MG e sou estudante de
+        desenvolvimento web full stack na Trybe.
+      </p>
+      <p class="quemEuSou-paragrafo">
+        Sou formado em engenharia mecânica pela UFU, sim você leu certo, sou engenheiro de formação e
+        atuei durante 5 anos na profissão.
+      </p>
+      <p class="quemEuSou-paragrafo">
+        No entanto, sempre fui um entusiasta na área de TI, e desde o início de 2021, me dedico full-time
+        ao desenvolvimento web. "Ahh Raphael, mas por que web?". Me apaxionei pela área estudando, e vi
+        nela, um mundo de possibilidades.
+      </p>
+      <p class="quemEuSou-paragrafo">
+        Eu amo trabalhar em equipe, adoro codar, aprender (de tudo, qualquer coisa), ler, praticar atividades
+        físicas, estar com minha família e amigos e por último, mas não menos importante, adoro ensinar.
+      </p>
+    </section>
+
+    <section class="meusProjetos" id="meusProjetos">
+      <h2 class="meusProjetos-titulo">Meus Projetos</h2>
+      <div class="meusProjetos-grid">
+
+      </div>
+    </section>
+
+  </main>
+
+    <footer class="rodapePrincipal">
+      <h3 class="author-name">Raphael Silva</h3>
+        <div class="icons-container">
+          <div class="icon-item">
+            <a href="https://www.linkedin.com/in/raphael-pereira-silva/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <div class="icon-item">
+            <a href="https://github.com/raphaelprsilva/" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <div class="icon-item">
+            <a href="mailto:raphaelprsilva@gmail.com" target="_blank">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
         </div>
-        <div>
-            <h2>Lista de habilidades</h2>
-            <ul>
-                <li><strong>Facilidade em ensinar</strong></li>
-                <li>Criatividade</li>
-                <li>Adaptabilidade</li>
-            </ul>
-        </div>
-    </body>
+    </footer>
+
+  <script src="./app.js"></script>
+</body>
 </html>
