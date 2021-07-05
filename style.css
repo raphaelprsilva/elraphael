@@ -155,6 +155,7 @@ h1 {
 }
 
 .projetos-card-titulo {
+  color: rgb(238, 231, 231);
   display: none;
 }
 
@@ -165,8 +166,13 @@ h1 {
   display: flex;
 }
 
+.projetos-card {
+  text-decoration: none;
+
+}
+
 .projetos-card:nth-child(1) {
-  background-image: url('https://lh3.googleusercontent.com/Z7l0JfqTeeK41_DGK7cRnkmagm_brdcAWCEmpXuGj_rUmOVr9vyuuoIaJtXngW1nZVg0bWjYlmGQPQsE11Og_nMH=w640-h400-e365-rj-sc0x00ffffff');
+  background-image: url('./images/todo-list.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -175,7 +181,7 @@ h1 {
 }
 
 .projetos-card:nth-child(2) {
-  background-image: url('https://h2interatividade.com.br/quiz-interativo/img/bg-img/about-2.jpg');
+  background-image: url('./images/interactive-quiz.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
