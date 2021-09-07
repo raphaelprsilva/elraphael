@@ -1,3 +1,3 @@
 /interactive-quiz/* https://interactive-quiz.elraphael.com.br/:splat 200
 /todo-list/* https://todo-list.elraphael.com.br/:splat 200
-/weather-app/* https://weather-app.elraphael.com.br/ 200
+/weather-app/* https://weather-app.elraphael.com.br/:splat 200
